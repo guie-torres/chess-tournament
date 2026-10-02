@@ -1,0 +1,29 @@
+/* index.css - home page */
+.hero { display: grid; gap: 2.5rem; align-items: center; }
+@media (min-width: 48rem) { .hero { grid-template-columns: 1.3fr 1fr; } }
+.lead { font-size: 1.25rem; color: var(--ink-soft); }
+
+/* Key facts */
+.facts { margin: 1.5rem 0 0; display: grid; gap: .75rem; }
+.facts div { border-left: 4px solid var(--sq-dark); padding-left: 1rem; }
+.facts dt { font-weight: 700; }
+.facts dd { margin: 0; color: var(--ink-soft); }
+
+/* Decorative chessboard: 8x8 squares drawn with a gradient */
+.board {
+  aspect-ratio: 1; width: 100%; max-width: 24rem; margin-inline: auto;
+  border: 6px solid var(--ink); border-radius: 4px;
+  display: grid; place-items: center;
+  background: conic-gradient(var(--sq-dark) 25%, var(--sq-light) 0 50%, var(--sq-dark) 0 75%, var(--sq-light) 0) 0 0 / 25% 25%;
+}
+.board-piece {
+  font-family: "Segoe UI Symbol", "Noto Sans Symbols 2", "Apple Symbols", sans-serif;
+  font-size: clamp(6rem, 22vw, 11rem); line-height: 1; color: var(--ink);
+  text-shadow: 0 0 .12em var(--sq-light), 0 0 .12em var(--sq-light);
+}
+
+/* How it works */
+.how { margin-top: 4rem; }
+.steps { margin: 0; padding-left: 1.4rem; display: grid; gap: 1rem; max-width: 40rem; }
+.steps li::marker { font-family: var(--font-head); font-weight: 700; color: var(--green); }
+.steps strong { display: block; }

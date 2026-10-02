@@ -1,0 +1,6 @@
+/* results.css - results page */
+.results-main { display: grid; place-items: center; text-align: center; }
+.coming-soon {
+  margin: 0; font-size: clamp(3rem, 13vw, 8rem);
+  letter-spacing: -.02em; color: var(--green);
+}

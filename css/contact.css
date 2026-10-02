@@ -1,0 +1,15 @@
+/* contact.css - contact page */
+.contact-grid { display: grid; gap: 2.5rem; margin-top: 2rem; }
+@media (min-width: 48rem) { .contact-grid { grid-template-columns: 1fr 1fr; } }
+.info-list { margin: 0; display: grid; gap: .75rem; }
+.info-list div { border-left: 4px solid var(--sq-dark); padding-left: 1rem; }
+.info-list dt { font-weight: 700; }
+.info-list dd { margin: 0; }
+.faq { margin-top: 3rem; }
+.faq details { background: var(--white); border: 1px solid var(--line); border-radius: var(--radius); margin-bottom: .75rem; }
+.faq summary { cursor: pointer; padding: 1rem 1.25rem; font-weight: 600; }
+.faq details p {
+  max-width: none;
+  padding: 0 1.25rem;
+  margin: 0 0 1rem;
+}

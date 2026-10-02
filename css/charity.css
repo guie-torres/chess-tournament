@@ -1,0 +1,11 @@
+/* charity.css - charity (WFP) page */
+.lead { font-size: 1.25rem; color: var(--ink-soft); }
+
+/* Four key facts in a row of boxes */
+.stats { margin: 2rem 0 0; display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)); }
+.stats div { background: var(--white); border: 1px solid var(--line); border-top: 6px solid var(--sq-dark); border-radius: var(--radius); padding: 1rem 1.25rem; }
+.stats dt { color: var(--ink-soft); font-size: .95rem; }
+.stats dd { margin: 0; font-family: var(--font-head); font-size: 1.5rem; font-weight: 700; }
+
+/* Text sections */
+.block { margin-top: 3rem; }

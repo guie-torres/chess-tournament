@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>IB Chess Tournament</title>
+  <meta name="description" content="A friendly chess tournament for IB students in Sønderborg.">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/index.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html"><span class="logo-piece" aria-hidden="true">&#9822;</span> IB Chess Tournament</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu"><span class="bars" aria-hidden="true"></span></button>
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html" class="active" aria-current="page">Home</a></li>
+          <li><a href="charity.html">Charity</a></li>
+          <li><a href="players.html">Players</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="register.html">Register</a></li>
+          <li><a href="results.html">Results</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container">
+    <section class="hero">
+      <div>
+        <h1>IB Chess Tournament</h1>
+        <p class="lead">A friendly tournament for IB students. Beginners and experienced players are both welcome.</p>
+        <dl class="facts">
+          <div><dt>Starts</dt><dd>21 October</dd></div>
+          <div><dt>Ends</dt><dd>When we have a winner</dd></div>
+          <div><dt>Where</dt><dd>Søndre Landevej 28, 6400 Sønderborg</dd></div>
+        </dl>
+        <div class="btn-row">
+          <a class="btn" href="register.html">Register</a>
+        </div>
+      </div>
+      <div class="board" aria-hidden="true"><span class="board-piece">&#9822;</span></div>
+    </section>
+
+    <section class="how" aria-labelledby="how-title">
+      <h2 id="how-title">How it works</h2>
+      <ol class="steps">
+        <li><strong>Group stage</strong> Players are placed in groups and play each other.</li>
+        <li><strong>Top two advance</strong> The best two players in each group move on.</li>
+        <li><strong>Knockout</strong> Win your match to stay in. The last player standing is the champion.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p class="footer-name">IB Chess Tournament</p>
+      <p>Søndre Landevej 28, 6400 Sønderborg</p>
+    </div>
+  </footer>
+</body>
+</html>
